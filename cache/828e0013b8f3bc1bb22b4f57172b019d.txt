@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+    
+        <link rel="stylesheet" href="structure/banner_style.css">
+    
+        <link rel="stylesheet" href="structure/index.css">
+    
+        <title>Рукоделие.</title>   
+        <meta charset="UTF-8">
+        <link rel="icon" href="structure/pictures/icon.ico" type="image/x-icon">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial_scale = 1.0">
+        <script src="https://kit.fontawesome.com/9f7bbff4cf.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class = "header">
+            <a class="a" href="./login.php">Вход</a>
+            <a class="a" href="./registration.php">Регистрация</a>
+            <h1>Рукоделие как стиль жизни</h1>
+            <form action = "search.php" method = "post">
+                <label for = "search">Найти в каталоге:</label>
+
+                <input id = "search"  name = "searchitem" type = "text" placeholder="Название изделия" required>
+                <input type ="submit" value = "Найти">
+            </form>
+        </div>
+
+<div>
+    <nav>
+        <ul>
+        
+            <li><a href="index.php">Главная</a></li>
+        
+            <li><a href="types.php">Виды рукоделия</a></li>
+        
+            <li><a href="articles.php">Это интересно</a></li>
+        
+            <li><a href="products.php">Изделия</a></li>
+        
+            <li><a href="feedback.php">Связаться с мастером</a></li>
+        
+            <li><a href="map.php">Карта сайта</a></li>
+                          
+        </ul>
+    </nav>
+</div>
+<div class="flex_container ">
+    <div class="flex_item_left">
+        <ul>
+            <li><i class="fa-solid fa-bars"></i>
+                <ul class = "submenu">
+                
+            <li><a href="index.php">Главная</a></li>
+        
+            <li><a href="types.php">Виды рукоделия</a></li>
+        
+            <li><a href="articles.php">Это интересно</a></li>
+        
+            <li><a href="products.php">Изделия</a></li>
+        
+            <li><a href="feedback.php">Связаться с мастером</a></li>
+        
+            <li><a href="map.php">Карта сайта</a></li>
+        
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="flex_item_right">Разделы</div>
+</div><div class="caption">Волшебство руками</div>
+    <div class="item_wrapper">
+    
+        <div class="item"><img src="contents/main_pictures/вязание_картинка.png" alt="картинка вязание">Вязание</div>
+    
+        <div class="item"><img src="contents/main_pictures/бисер_картинка.png" alt="картинка бисер">Плетение из бисера</div>
+    
+        <div class="item"><img src="contents/main_pictures/вышивка_картинка.png" alt="картинка вышивка">Вышивка</div>
+    
+        <div class="item"><img src="contents/main_pictures/ленты_картинка.png" alt="картинка ленты">Вышивка лентами</div>
+    
+        <div class="item"><img src="contents/main_pictures/валяние_картинка.png" alt="картинка валяние">Валяние из шерсти</div>
+    
+    </div>
+<br><br>
+<div>
+
+    <div class ="pictures">
+        <img src="contents/main_pictures/p5.jpg" alt="картинка фотоальбом" style="max-width:100%">
+    </div>
+
+    <div class ="pictures">
+        <img src="contents/main_pictures/p1.jpg" alt="картинка чашка чая" style="max-width:100%">
+    </div>
+
+    <div class ="pictures">
+        <img src="contents/main_pictures/p2.jpg" alt="картинка подарок" style="max-width:100%">
+    </div>
+          
+</div>
+<div class="caption">Рукоделие это</div>
+    <div class="footer">
+        <table>
+        
+            <tr>
+                <td>мысль творца в наших руках</td>
+            </tr>
+        
+            <tr>
+                <td>божественное начало</td>
+            </tr>
+        
+            <tr>
+                <td>вдохновение</td>
+            </tr>
+        
+            <tr>
+                <td>лекарство от скуки</td>
+            </tr>
+        
+            <tr>
+                <td>полет фантазии</td>
+            </tr>
+        
+            <tr>
+                <td>новое мировоззрение</td>
+            </tr>
+        
+            <tr>
+                <td>красота в форме вещи</td>
+            </tr>
+        
+            <tr>
+                <td>творческая часть каждого человека</td>
+            </tr>
+        
+        </table>
+    </div>
+</body>
+</html>
