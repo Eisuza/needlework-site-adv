@@ -1,0 +1,237 @@
+body {
+    background-color:rgb(187,149,126);
+    color: black;
+    font-size: 16px;
+    font-family: 'Verdana', sans-serif;
+}
+.text_right {
+    color:white;
+    font-size: 16px;
+    text-align:right;
+}
+
+.text_color{
+    color:white;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+}
+.text_color p {
+    color:#4e0606;
+    font-weight: bold;
+}
+
+.caption_for_banner{
+    color:#4e0606;
+    font-size: 18px;
+    font-family: 'Verdana', sans-serif;
+}
+
+.caption {
+    color:white;
+    font-size: 20px;
+    font-family: 'Verdana', sans-serif;
+    text-shadow: 1px 1px 2px black, 0 0 25px #b0e0fc, 0 0 5px #1f0404;
+    text-align: center; 
+}
+
+.form {
+    width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px white;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    left:0;
+    right:0;
+    margin:auto;
+    display:grid;
+    grid-template-columns: repeat(auto-fill, 230px);
+}
+.form p {
+    display:relative;
+}
+
+
+.form_button {
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #4e0606;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.form_button:focus,
+.form_button:hover {
+    background-color: #502424;
+}
+
+.text_field_input {
+    display:flexbox;
+    width: 45%;
+    min-width: 300px;
+    text-align: center;
+    outline: none;
+    padding: 5px 5px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #0e0202; 
+    background-color: rgb(223, 217, 214);
+    border: 1px solid rgb(56, 26, 33);
+    margin: 2px;
+}
+
+.wripper{
+    width: 95%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+ .table th,
+ .table td {
+    padding: 5px;
+    border: 1px solid black;
+ }
+
+ .table td {
+    position: relative;
+    background-color: rgb(223, 217, 214);
+ }
+
+
+.table input {
+    background-color: rgb(223, 217, 214);
+    font-size: 16px;
+    border: 0px;
+    outline: none;
+    padding: 5px 5px;
+    position: relative;
+    height:150%;
+    width:95%;
+}
+.warning{
+    color:aqua;
+    font-size: 18px;
+    font-weight: bold;
+    text-align:center;
+}
+.panel{
+    padding-bottom: 250px;
+
+    justify-content: center;
+}
+.flex_box{
+    width:60%;
+    display: flex;
+    margin: 0 -5px;
+}
+
+.item {
+    flex: 1 1 auto;
+    margin: 0 5px;
+  }
+.pages{
+    font-size: 20px;
+    font-family:fantasy;
+    padding: 50px;
+    color:maroon;
+    font-weight: bold;;
+}
+.pages span{
+    color:chocolate;
+}
+/* Table style */
+.table2 {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  /* Table header style */
+  .table2 th {
+    background-color: #f2f2f2;
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Table row style */
+  .table2 tr {
+    background-color: #fff;
+  }
+  
+  /* Table cell style */
+  .table2 td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Alternating row color */
+  .table2 tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Hover effect */
+  .table2 tr:hover {
+    background-color: #f5f5f5;
+  }
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-group textarea {
+  height: 100px;
+}
+
+.form-group input[type="submit"] {
+  background-color: #4e0606;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.form-group input[type="submit"]:hover {
+  background-color: #4e0606;
+}
