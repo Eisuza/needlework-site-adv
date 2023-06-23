@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+    <!--FOREACH_STYLESHEET-->
+        <link rel="stylesheet" href="{STYLESHEET}">
+    <!--ENDFOREACH_STYLESHEET-->
+        <title>{CAPTION}</title>   
+        <meta charset="UTF-8">
+        <link rel="icon" href="{ICON}" type="image/x-icon">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial_scale = 1.0">
+        <script src="https://kit.fontawesome.com/9f7bbff4cf.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class = "header">
+            <a class="a" href="{SECTION_LINK#}">{SECTION_SECTION#}</a>
+            <a class="a" href="{SECTION_LINK#1}">{SECTION_SECTION#1}</a>
+            <h1>{CAPTION}</h1>
+            <form action = "search.php" method = "post">
+                <label for = "search">{CAPTION}</label>
+
+                <input id = "search"  name = "searchitem" type = "text" placeholder="{PLACEHOLDER}" required>
+                <input type ="submit" value = "{BUTTON}">
+            </form>
+        </div>
