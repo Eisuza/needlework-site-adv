@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+    
+        <link rel="stylesheet" href="structure/banner_style.css">
+    
+        <link rel="stylesheet" href="structure/index.css">
+    
+        <title>Рукоделие.</title>   
+        <meta charset="UTF-8">
+        <link rel="icon" href="structure/pictures/icon.ico" type="image/x-icon">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial_scale = 1.0">
+        <script src="https://kit.fontawesome.com/9f7bbff4cf.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class = "header">
+            <a class="a" href="./login.php">Вход</a>
+            <a class="a" href="./registration.php">Регистрация</a>
+            <h1>Рукоделие как стиль жизни</h1>
+            <form action = "search.php" method = "post">
+                <label for = "search">Найти в каталоге:</label>
+
+                <input id = "search"  name = "searchitem" type = "text" placeholder="Название изделия" required>
+                <input type ="submit" value = "Найти">
+            </form>
+        </div>
