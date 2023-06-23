@@ -1,0 +1,20 @@
+<div class="caption">{CAPTION}</div>
+<div class="feedback">
+    {CAPTION}<br>
+    {CAPTION}<br>
+    {CAPTION}<br>
+    {CAPTION}
+</div>
+
+    <div class="caption">{CAPTION}</div>          
+    <form action = "send.php" method = "post" class="feedback">
+        <br>
+        <label for = "senderName">{CAPTION}</label>
+        <input id = "senderName"  name = "name" type = "text" placeholder="{PLACEHOLDER}" required><br><br>
+        <label for = "senderEmail">{CAPTION}</label>
+        <input id = "senderEmail" name = "email" type = "email" placeholder = "{PLACEHOLDER}"><br><br>
+        <label for = "comment">{CAPTION}</label><br>
+        <textarea id = "comment" name = "comment" id = "" cols = "35" rows = "10" placeholder = "{PLACEHOLDER}"></textarea>
+        <input type ="submit" value = "{BUTTON}"><br>
+        <br>
+    </form>
