@@ -1,0 +1,16 @@
+<br><br>
+<div>
+
+    <div class ="pictures">
+        <img src="contents/main_pictures/p5.jpg" alt="картинка фотоальбом" style="max-width:100%">
+    </div>
+
+    <div class ="pictures">
+        <img src="contents/main_pictures/p1.jpg" alt="картинка чашка чая" style="max-width:100%">
+    </div>
+
+    <div class ="pictures">
+        <img src="contents/main_pictures/p2.jpg" alt="картинка подарок" style="max-width:100%">
+    </div>
+          
+</div>
