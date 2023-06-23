@@ -1,0 +1,44 @@
+
+<div>
+    <nav>
+        <ul>
+        
+            <li><a href="index.php">Главная</a></li>
+        
+            <li><a href="types.php">Виды рукоделия</a></li>
+        
+            <li><a href="articles.php">Это интересно</a></li>
+        
+            <li><a href="products.php">Изделия</a></li>
+        
+            <li><a href="feedback.php">Связаться с мастером</a></li>
+        
+            <li><a href="map.php">Карта сайта</a></li>
+                          
+        </ul>
+    </nav>
+</div>
+<div class="flex_container ">
+    <div class="flex_item_left">
+        <ul>
+            <li><i class="fa-solid fa-bars"></i>
+                <ul class = "submenu">
+                
+            <li><a href="index.php">Главная</a></li>
+        
+            <li><a href="types.php">Виды рукоделия</a></li>
+        
+            <li><a href="articles.php">Это интересно</a></li>
+        
+            <li><a href="products.php">Изделия</a></li>
+        
+            <li><a href="feedback.php">Связаться с мастером</a></li>
+        
+            <li><a href="map.php">Карта сайта</a></li>
+        
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="flex_item_right">Разделы</div>
+</div>
