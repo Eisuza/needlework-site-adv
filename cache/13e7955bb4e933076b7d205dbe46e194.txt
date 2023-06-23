@@ -1,0 +1,14 @@
+<div class="caption">Волшебство руками</div>
+    <div class="item_wrapper">
+    
+        <div class="item"><img src="contents/main_pictures/вязание_картинка.png" alt="картинка вязание">Вязание</div>
+    
+        <div class="item"><img src="contents/main_pictures/бисер_картинка.png" alt="картинка бисер">Плетение из бисера</div>
+    
+        <div class="item"><img src="contents/main_pictures/вышивка_картинка.png" alt="картинка вышивка">Вышивка</div>
+    
+        <div class="item"><img src="contents/main_pictures/ленты_картинка.png" alt="картинка ленты">Вышивка лентами</div>
+    
+        <div class="item"><img src="contents/main_pictures/валяние_картинка.png" alt="картинка валяние">Валяние из шерсти</div>
+    
+    </div>
