@@ -1,0 +1,348 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+
+html{
+    height: 100%;
+}
+
+body{
+    background: radial-gradient(circle, rgba(238,174,174,1) 0%, rgba(148,160,233,1) 100%);
+    /*background: rgb(9,214,153);*/
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    min-height: 100%;
+    position: relative;
+    padding-bottom: 60px;
+}
+
+.header .block{
+    width:33%;
+    text-align: center;
+    display: inline-block;
+    color:white;
+    text-decoration: none;
+    height: 100px;
+    padding-top: 40px;
+}
+.header .block p{
+    color: rgb(145, 13, 51);
+    font-size: 22px;
+    font-weight: bold;
+}
+.header .block a{
+    color:white;
+}
+
+.header .block input{
+    padding: 1px;
+    max-width: 130px;
+}
+
+.button{
+  cursor:pointer;
+  border: 1px solid white;
+  outline:none;
+  background: rgb(148, 160, 233);
+  color: white;
+}
+
+
+/* РЕДАКТИРОВАТЬ!*/
+.footer_box {
+    color: rgb(92,20,22);
+    font-size:20 px;
+    font-weight:normal;
+    padding-left:7vw;
+}
+
+
+  /* заголовки */
+  .caption {
+    color:rgb(53, 62, 112);
+    font-size:25px;
+    padding-top:15px;
+    padding-left:20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    }
+
+/* навигация короткая */
+  .flex_container {
+    font-size: 30px;
+    color:white;
+    text-shadow: 1px 1px 2px black, 0 0 25px #bdbcbc, 0 0 5px #1f0404;
+    font-family: 'Brush Script MT', cursive;
+    display:none;
+  }
+
+  .flex_item_left {
+    background-color: rgb(84, 92, 138);
+    padding: 10px;
+    text-align: center;
+    width: 13%;
+    float:left;
+    display:none;
+    text-shadow:none;
+  }
+
+  .flex_item_right {
+    background-color: rgb(84, 92, 138);
+    padding: 10px;
+    padding-left: 5%;
+    width: 87%;
+    float:left;
+    display:none;
+    font-size: 20px;
+  }
+
+  .flex_item_left:hover {
+    color: rgb(53, 62, 112);
+  }
+
+  .submenu {
+    flex-direction: column;
+    position: absolute;
+    display:none;
+    font-size: 16px;
+    }
+
+    li:hover >.submenu {
+      display:flex;
+    }
+ 
+@media (max-width: 900px) {
+  .flex_container, .flex_item_left, .flex_item_right {
+    display:flex;
+  }
+}
+  /*навигация длинная*/
+  nav{
+    margin:27px auto 0;
+    position:relative;
+    width: 100%;
+
+}
+
+   ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(84, 92, 138);
+    display:block;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    color: white;
+    font-family: 'Brush Script MT', cursive;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    display:block;
+  }
+  
+  li a:hover {
+    background-color: rgb(53, 62, 112);
+  }
+
+  @media (max-width: 900px) {
+    nav {
+      display:none;
+    }
+  }
+  table {
+    width: 100%;
+  }
+
+   .article {
+    /*background-color:rgb(185,122,87);*/
+    border-radius: 20px;
+    border-color:rgb(185,122,87);
+    border-style: ridge;
+    padding: 20px;
+    margin: 10px;
+  }
+
+  .article_text {
+    font-size: 16px;
+    color: rgb(92,20,22);
+    font-family:'Brush Script MT', cursive; 
+    margin-top: 10px;
+    text-align:justify;
+  }
+
+  .article_title {
+    font-size: 20px;
+    color: rgb(92,20,22);
+    font-family:'Lucida Handwriting', cursive;
+    margin-top: 10px;
+    text-align:justify;
+  }
+
+  .feedback {
+    background-color: rgb(148, 160, 233);
+    width: 400px;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+    font-size: 16px;
+    font-family:'Lucida Handwriting', cursive; 
+    text-align:left;
+  }
+
+  .feedback_wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 400px);
+    gap: 40px 30px;
+    justify-content: center;
+  }
+
+.content_box{
+    width: 900px;
+    left:0;
+    right:0;
+    margin:auto;
+    bottom: 50px;
+    top: 50px;
+}
+
+.footer{
+    width: 100%;
+    left:0;
+    right:0;
+    margin:auto;
+    text-align: center;
+    float:left;
+}
+.right{
+    color: rgb(196, 122, 122);
+    font-size: 20px;
+}
+
+.left{
+    color: rgb(103, 122, 207);
+    padding-right: 40px;
+    font-size: 20px;
+}
+/* картинки работ */
+  .pictures {
+    float: left;
+    width: 33.3%;
+  }
+
+  @media screen and (max-width: 900px) {
+    .pictures {
+      width: 100%;
+      display:grid;
+      justify-content: center;
+    }
+  }
+
+  /* изделия */
+  .item {
+    background-color: rgb(148, 160, 233);
+    width: 240px;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+  }
+  .item_img {
+    border-radius:11px;
+  }
+  .item_text {
+    font-size: 16px;
+    font-weight: 300;
+    font-family:'Brush Script MT', cursive; 
+    margin-top: 16px;
+    text-align: center;
+  }
+  .item_wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 270px);
+    gap: 40px 30px;
+    justify-content: center;
+  }
+/* карта сайта */
+.menu_title {
+  color:rgb(106,56,58);
+  font-size: 20px;
+  margin: 30px;
+  font-family:'Brush Script MT', cursive; 
+}
+
+/* подписка */
+.subscription {
+  flex-direction: column;
+  align-items: left;
+  align-self: center;
+  background-color:rgb(250, 207, 207);
+  border-radius: 20px;
+  padding: 20px;
+  padding-bottom: 100px;
+  font-family:'Lucida Handwriting', cursive;
+  color:white;
+  margin: 40px;
+}
+
+
+.subscription .email{
+  height: 50px;
+  position: relative;
+}
+
+.subscription .email input{
+  height:150%;
+  width:100%;
+  padding-left: 65px;
+  font-size: 14px;
+  outline: none;
+  font-family:'Lucida Handwriting', cursive;
+  border-radius: 20px;
+  border: 2px solid rgb(255,127,39);
+  background-color: rgb(245, 228, 228);
+  color: white;
+}
+
+.subscription .email .icon{
+  position: absolute;
+  left:25px;
+  transform: translate(-25%, +20%);
+  font-size: 18px;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+
+.subscription .email button{
+  position: absolute;
+  padding: 15px 13px;
+  transform: translate(-110%, +20%);
+  border-radius: 15px;
+  cursor: pointer;
+  border: 1px solid grey;
+  outline:none;
+  background: rgb(84, 92, 138);
+  color: rgb(255,127,39);
+  font-size: 18px;
+}
+.subscription .alert {
+  margin: -9px 0 12px 0;
+  padding: 10px;
+  border-radius: 10px;
+  color:rgb(74, 34, 43);
+  background: rgb(187,149,126);
+  border: 1px sold grey;
+}
+
+  @media screen and (max-width: 900px) {
+    .text {
+      column-count: 1;
+      width: 100%; 
+   }
+  }
