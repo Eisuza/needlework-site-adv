@@ -1,0 +1,83 @@
+/*заголовки на страницах*/
+.caption {
+    color:#6a383a;
+    font-size:25px;
+    padding-top:15px;
+    padding-left:20px;
+    font-family:'Brush Script MT', cursive; 
+    }
+
+.item {
+    background-color:rgb(185,122,87);
+    width: 240px;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+  }
+  .item_img {
+    border-radius:11px;
+  }
+  .item_text {
+    font-size: 16px;
+    font-weight: 300;
+    font-family:'Brush Script MT', cursive; 
+    margin-top: 16px;
+    text-align: center;
+  }
+.item_wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 270px);
+    gap: 40px 30px;
+    justify-content: center;
+    }
+
+/*картинки работ*/
+.pictures {
+    float: left;
+    width: 33.3%;
+  }
+  .pictures_container{
+    background-color:#130304;
+  }
+  @media screen and (max-width: 900px) {
+    .pictures {
+      width: 100%;
+      display:grid;
+      justify-content: center;
+    }
+  }
+
+  .article {
+    background-color:rgb(185,122,87);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+  }
+
+  .article_text {
+    font-size: 16px;
+    font-family:'Brush Script MT', cursive; 
+    margin-top: 10px;
+    text-align:justify;
+    /*display:grid;*/
+  }
+
+ /*форма обратной связи*/
+  .feedback {
+    background-color:rgb(185,122,87);
+    width: 400px;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+    font-size: 16px;
+    font-family:'Lucida Handwriting', cursive; 
+    text-align:left;
+  }
+
+  /*карта сайта*/
+.menu_title {
+    color:#6a383a;
+    font-size: 20px;
+    margin: 30px;
+    font-family:'Brush Script MT', cursive; 
+  }
