@@ -1,0 +1,337 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  /* структура */
+  .header {
+    background-color: rgb(185,122,87);
+    text-align: right;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px #bdbcbc, 0 0 5px #1f0404;
+    font-family: 'Brush Script MT', cursive;
+    padding: 10px;
+  }
+
+  .a {
+    color:white;
+    font-family: 'Lucida Handwriting';
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  .footer {
+    color: rgb(92,20,22);
+    font-family:'Lucida Handwriting', cursive;
+    font-size:20 px;
+    font-weight:normal;
+    padding-left:7vw;
+  }
+
+  /*.login_phrase {
+    color:white;
+    font-family: 'Brush Script MT', cursive;
+    text-decoration: none;
+    font-size: 16px;
+   }*/
+
+  /* заголовки */
+  .caption {
+    color:rgb(106,56,58);
+    font-size:25px;
+    padding-top:15px;
+    padding-left:20px;
+    font-family:'Brush Script MT', cursive; 
+    }
+
+/* навигация короткая */
+
+  .flex_container {
+    font-size: 30px;
+    color:white;
+    text-shadow: 1px 1px 2px black, 0 0 25px #bdbcbc, 0 0 5px #1f0404;
+    font-family: 'Brush Script MT', cursive;
+    display:none;
+  }
+
+  .flex_item_left {
+    background-color:  rgb(56, 26, 33);
+    padding: 10px;
+    text-align: center;
+    width: 13%;
+    float:left;
+    display:none;
+    text-shadow:none;
+  }
+
+  .flex_item_right {
+    background-color: rgb(56, 26, 33);
+    padding: 10px;
+    padding-left: 5%;
+    width: 87%;
+    float:left;
+    display:none;
+    font-size: 20px;
+  }
+
+  .flex_item_left:hover {
+    color: rgb(74, 34, 43);
+  }
+
+  .submenu {
+    flex-direction: column;
+    position: absolute;
+    display:none;
+    font-size: 16px;
+    }
+
+    li:hover >.submenu {
+      display:flex;
+    }
+ 
+@media (max-width: 900px) {
+  .flex_container, .flex_item_left, .flex_item_right {
+    display:flex;
+  }
+}
+  /*навигация длинная*/
+   ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(56, 26, 33);
+    display:block;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    color: white;
+    font-family: 'Brush Script MT', cursive;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    display:block;
+  }
+  
+  li a:hover {
+    background-color: rgb(74, 34, 43);
+  }
+
+  @media (max-width: 900px) {
+    nav {
+      display:none;
+    }
+  }
+  table {
+    width: 100%;
+  }
+
+   .article {
+    /*background-color:rgb(185,122,87);*/
+    border-radius: 20px;
+    border-color:rgb(185,122,87);
+    border-style: ridge;
+    padding: 20px;
+    margin: 10px;
+  }
+
+  .article_text {
+    font-size: 16px;
+    color: rgb(92,20,22);
+    font-family:'Brush Script MT', cursive; 
+    margin-top: 10px;
+    text-align:justify;
+  }
+
+  .article_title {
+    font-size: 20px;
+    color: rgb(92,20,22);
+    font-family:'Lucida Handwriting', cursive;
+    margin-top: 10px;
+    text-align:justify;
+  }
+
+  .feedback {
+    background-color:rgb(185,122,87);
+    width: 400px;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+    font-size: 16px;
+    font-family:'Lucida Handwriting', cursive; 
+    text-align:left;
+  }
+
+  .feedback_wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 400px);
+    gap: 40px 30px;
+    justify-content: center;
+  }
+
+/* картинки работ */
+  .pictures {
+    float: left;
+    width: 33.3%;
+  }
+
+  @media screen and (max-width: 900px) {
+    .pictures {
+      width: 100%;
+      display:grid;
+      justify-content: center;
+    }
+  }
+
+  /* изделия */
+  .item {
+    background-color:rgb(185,122,87);
+    width: 240px;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+  }
+  .item_img {
+    border-radius:11px;
+  }
+  .item_text {
+    font-size: 16px;
+    font-weight: 300;
+    font-family:'Brush Script MT', cursive; 
+    margin-top: 16px;
+    text-align: center;
+  }
+  .item_wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 270px);
+    gap: 40px 30px;
+    justify-content: center;
+  }
+/* карта сайта */
+.menu_title {
+  color:rgb(106,56,58);
+  font-size: 20px;
+  margin: 30px;
+  font-family:'Brush Script MT', cursive; 
+}
+
+/* подписка */
+.subscription {
+  flex-direction: column;
+  align-items: left;
+  align-self: center;
+  background-color:rgb(185,122,87);
+  border-radius: 20px;
+  padding: 20px;
+  padding-bottom: 100px;
+  font-family:'Lucida Handwriting', cursive;
+  color:white;
+  margin: 40px;
+}
+
+
+.subscription .email{
+  height: 50px;
+  position: relative;
+}
+
+.subscription .email input{
+  height:150%;
+  width:100%;
+  padding-left: 65px;
+  font-size: 14px;
+  outline: none;
+  font-family:'Lucida Handwriting', cursive;
+  border-radius: 20px;
+  border: 2px solid rgb(255,127,39);
+  background-color: rgb(187,149,126);
+  color: white;
+}
+
+.subscription .email .icon{
+  position: absolute;
+  left:25px;
+  transform: translate(-25%, +20%);
+  font-size: 18px;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+
+.subscription .email button{
+  position: absolute;
+  padding: 15px 13px;
+  transform: translate(-110%, +20%);
+  border-radius: 15px;
+  cursor: pointer;
+  border: 1px solid grey;
+  outline:none;
+  background: rgb(74, 34, 43);
+  color: rgb(255,127,39);
+  font-size: 18px;
+}
+.subscription .alert {
+  margin: -9px 0 12px 0;
+  padding: 10px;
+  border-radius: 10px;
+  color:rgb(74, 34, 43);
+  background: rgb(187,149,126);
+  border: 1px sold grey;
+}
+
+body{
+    background-color : rgb(187,149,126);
+  }
+
+  @media screen and (max-width: 900px) {
+    .text {
+      column-count: 1;
+      width: 100%; 
+   }
+  }
+
+  .container2 {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .container2 h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .form-group input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .form-group input[type="submit"] {
+    background-color: #a72824;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
+  .form-group input[type="submit"]:hover {
+    background-color: #a72824;
+  }
