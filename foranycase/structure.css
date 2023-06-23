@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+  }
+  /*навигация короткая*/
+  .title_row {
+    background-color: #2d090b;
+    text-align: right;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px #bdbcbc, 0 0 5px #1f0404;
+    font-family: 'Brush Script MT', cursive;
+    padding: 10px;
+
+  }
+  .flex_container {
+    font-size: 30px;
+    color:white;
+    text-shadow: 1px 1px 2px black, 0 0 25px #bdbcbc, 0 0 5px #1f0404;
+    font-family: 'Brush Script MT', cursive;
+    display:none;
+  }
+
+  .flex_item_left {
+    background-color:  #310e08;
+    padding: 10px;
+    text-align: center;
+    width: 13%;
+    float:left;
+    display:none;
+    text-shadow:none;
+  }
+
+  .flex_item_right {
+    background-color: #310e08;
+    padding: 10px;
+    padding-left: 5%;
+    width: 87%;
+    float:left;
+    display:none;
+    font-size: 20px;
+  }
+
+  .flex_item_left:hover {
+    color: rgb(70, 3, 3);
+  }
+
+  .submenu {
+    flex-direction: column;
+    position: absolute;
+    display:none;
+    font-size: 16px;
+    }
+
+    li:hover >.submenu {
+      display:flex;
+    }
+ 
+@media (max-width: 900px) {
+  .flex_container, .flex_item_left, .flex_item_right {
+    display:flex;
+  }
+}
+  /*навигация длинная*/
+   ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #310e08;
+    display:block;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    color: white;
+    font-family: 'Brush Script MT', cursive;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    display:block;
+  }
+  li b {
+    color:white;
+    font-family: 'Brush Script MT', cursive;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    background-color: rgb(70, 3, 3);
+    display:block;
+  }
+  
+  li a:hover {
+    background-color: rgb(70, 3, 3);
+  }
+
+  @media (max-width: 900px) {
+    nav {
+      display:none;
+    }
+  }
+  table {
+    width: 100%;
+  }
+
+/* центральные надписи*/
+  .middle {
+    color:white;
+    font-family: 'Brush Script MT', cursive;
+   }
+
+  .caption {
+  color:#6a383a;
+  font-size:25px;
+  padding-top:15px;
+  padding-left:20px;
+  font-family:'Brush Script MT', cursive; 
+  }
+  
+  .bottom_table {
+    color:#5c1416;
+    font-family:'Lucida Handwriting', cursive;
+    font-size:20 px;
+    font-weight:normal;
+    padding-left:7vw;
+  }
+
+  body{
+    background-color : #bb957e;
+  }
+
+  @media screen and (max-width: 900px) {
+    .text {
+      column-count: 1;
+      width: 100%; 
+   }
+  }
